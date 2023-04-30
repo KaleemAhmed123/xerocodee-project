@@ -1,0 +1,27 @@
+.container {
+    /* width: 90rem; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2.5rem;
+    font-size: 1.13rem;
+    color: #000;
+    /* color: #fff;        change it */
+    font-family: Poppins;
+}
+
+.navbar {
+    border-radius: 35px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem 3rem;
+}
+
+.item {
+    font-weight: 600;
+    font-family: Nunito;
+    margin-right: 0.5rem;
+}
+
+/* .util{
+  align-self: flex-end;
+} */
