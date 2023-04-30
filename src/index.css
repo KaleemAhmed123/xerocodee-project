@@ -18,7 +18,12 @@
     --primary-two: #242331;
     --secondary-one: #f9f9f9;
     --secondary-two: #c6deff;
-    --secondary-thtee: #797979;
+    --secondary-three: #797979;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 h1,
@@ -62,6 +67,7 @@ p {
 }
 
 .btn {
+    border: none;
     font-family: Nunito;
     font-weight: 700;
     font-size: 1.1rem;
@@ -70,6 +76,7 @@ p {
     justify-content: center;
     padding: 1.5rem 3rem;
     border-radius: 35px;
+    cursor: pointer;
 }
 
 .btn-video {
