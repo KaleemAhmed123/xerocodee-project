@@ -1,0 +1,70 @@
+.wrapper{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Nunito;
+    margin: 0 auto;
+    height: 100vh;
+}
+.text-content {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.4rem;
+}
+.second-bg {
+    border-radius: 45px;
+    background-color: var(--secondary-one);
+    height: 41rem;
+}
+.dashboard-icon {
+    height: 15rem;
+    margin-bottom: 2rem;
+}
+
+.para {
+    font-size: 1.35rem;
+    letter-spacing: 0.5px;
+    line-height: 175%;
+    color: var(--secondary-three);
+}
+
+
+.second, .third {
+    position: relative;
+    width: 28rem;
+    height: 40rem;
+}
+.content-two {
+    position: absolute;
+    top: 22rem;
+    left: 2rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.icon-two {
+    position: absolute;
+    top: 4.8rem;
+    left: 3rem;
+    width: 85%;
+}
+
+
+.learn-more {
+    text-decoration: underline;
+    position: relative;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: inherit;
+}
+.active {
+    color: #5236ff;
+}
