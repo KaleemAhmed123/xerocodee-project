@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/about/About";
 import Features from "./components/features/Features";
 import Hero from "./components/hero/hero";
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Hero />
       <Features />
+      <About />
       {/* App */}
     </>
   );
