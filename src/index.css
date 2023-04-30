@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Font+Awesome+5+Brands:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=FontAwesome:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root {
+    --primary-one: #0c5bc6;
+    --primary-two: #242331;
+    --secondary-one: #f9f9f9;
+    --secondary-two: #c6deff;
+    --secondary-thtee: #797979;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-family: 'Nunito';
+    font-style: normal;
+    line-height: 125%;
+    font-weight: 700;
+    color: var(--primary-two);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 157%;
+    color: var(--secondary-four);
+}
+
+.btn {
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 3rem;
+    border-radius: 35px;
+}
+
+.btn-video {
+    justify-content: space-between;
+}
+
+.btn-gray {
+    background-color: var(--secondary-one);
+    color: var(--primary-two);
+}
+
+.btn-primary {
+    background-color: var(--primary-one);
+    color: white;
+    ;
+}
+
+.btn-secondary {
+    background-color: var(--primary-two);
+}
+
+.btn-transparent {
+    background: transparent;
+    color: var(--primary-two);
+}
