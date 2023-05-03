@@ -1,12 +1,16 @@
 .wrapper{
-  margin-left: 125px; /*TODO- fix*/
-  margin-top: 200px;
-  .about-us {
+    // width: 100vw;
+    // height: 100%;
+    display: flex;
+    justify-content: center;
     border: 2px solid red;
+
+  .about-us {
+    padding: 20px;
     display: flex;
     align-items: flex-start;
     width: 1660px;
-    height: 750px;
+    height: 780px;
 
     .left{
       // width: 800px;

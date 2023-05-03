@@ -1,29 +1,35 @@
-import "./subHeaderBtn.css";
+import "./SubHeaderBtn.scss";
 
 const SubHeaderBtn = () => {
+  // TODO- btn functionality left only
   return (
-    <div className="sub-content">
-      <div className="heading">
-        <button className="btn">
-          <div className="btn-child" />
-          <b className="btn-text">How It Work</b>
-        </button>
-        <h3 className="heading-text">
-          <h2>Work smarter</h2>
-          <h2>with easy deploys, manages & scales</h2>
-        </h3>
-      </div>
-      {/*  */}
-      <div className="btn-container">
-        <a href="#" className="btn-full active">
-          <b className="create-account">01. BUILD</b>
-        </a>
-        <a href="#" className="btn-full">
-          <b className="standardize">02. STANDARDIZE</b>
-        </a>
-        <a href="#" className="btn-full">
-          <b className="track-analytics">03. INNOVATE</b>
-        </a>
+    <div className="wrapper">
+      <div className="sub-content">
+        <div className="heading">
+          <div className="">
+            <button className="btn btn-trans">How It Works</button>
+          </div>
+          <h3 className="heading-text">
+            <h2>Work smarter</h2>
+            <h2>with easy deploys, manages & scales</h2>
+          </h3>
+        </div>
+        {/*  */}
+        <div className="btn-container">
+          <div>
+            <a href="#" className="btn btn-full active">
+              01. BUILD
+            </a>
+          </div>
+          <div>
+            <a href="#" className="btn btn-full">
+              02. STANDARDIZE
+            </a>
+          </div>
+          <div>
+            <a className="btn btn-full">03. INNOVATE</a>
+          </div>
+        </div>
       </div>
     </div>
   );
