@@ -34,7 +34,7 @@
   gap: 1.19rem;
 }
 .heading-container {
-
+  display: block;
 }
 .para{
   margin-bottom: 1rem;

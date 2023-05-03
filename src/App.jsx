@@ -1,16 +1,16 @@
-import "./App.css";
-import About from "./components/about/About";
+import React from "react";
+import Navbar from "./components/navbar/Navbar";
+import Hero from "./components/hero/Hero";
 import Features from "./components/features/Features";
-import Hero from "./components/hero/hero";
-function App() {
+
+const App = () => {
   return (
-    <>
+    <div className="app">
+      <Navbar />
       <Hero />
       <Features />
-      <About />
-      {/* App */}
-    </>
+    </div>
   );
-}
+};
 
 export default App;

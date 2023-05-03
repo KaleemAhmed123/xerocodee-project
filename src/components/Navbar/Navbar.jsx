@@ -1,17 +1,29 @@
-import "./navbar.css";
+import "./Navbar.scss";
 const Navbar = () => {
   return (
     <nav className="container">
+      {/*  */}
       <div className="navbar">
-        <span className="item">Home </span>
-        <span className="item">About </span>
-        <span className="item">Features</span>
-        {/*  down icon left */}
-        <span className="item">Pages </span>
-        <span className="item">Blog</span>
-        <span className="item"> Cart (0)</span>
+        {/* one */}
+        <h2>XeroCodee</h2>
+        {/* two */}
+        <div className="nav-wrapper">
+          <div className="nav-items">
+            <a className="item">Home </a>
+            <a className="item">About </a>
+            <a className="item">Features</a>
+            {/*  down icon left */}
+            <a className="item">Pages </a>
+            <a className="item">Blog</a>
+            <a className="item"> Cart(0)</a>
+          </div>
+          <div>
+            <button className="btn btn-white">Sign In</button>
+          </div>
+        </div>
+        {/* three */}
+        {/*  */}
       </div>
-      <button className="btn btn-gray util">Sign In</button>
     </nav>
   );
 };

@@ -1,0 +1,45 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    position: relative;
+    border: 2px solid red;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        gap: 15rem;
+        h2 {
+            font-family: 'Lato';
+            font-size: 30px;
+        }
+        .nav-wrapper {
+            border: 2px solid yellow;
+            display: flex;
+            justify-content: flex-end;
+            gap: 40px;
+            width: 925px;
+            .nav-items {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 24px 50px;
+                gap: 25px;
+                width: 720px;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 40px;
+
+                a {
+                    font-family: 'Nunito';
+                    font-weight: 600;
+                    font-size: 18px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .btn {
+            position: absolute;
+            right: 0;
+        }
+    }
+}

@@ -17,13 +17,14 @@
     --primary-one: #0c5bc6;
     --primary-two: #242331;
     --secondary-one: #f9f9f9;
-    --secondary-two: #c6deff;
-    --secondary-three: #797979;
+    --secondary-two: #797979;
+    --secondary-three: #c6deff;
 }
-body{
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
+
+body {
+    height: 100%;
+    width: 100%;
+    /* overflow-x: hidden; */
 }
 
 h1,
@@ -37,10 +38,13 @@ p {
     line-height: 125%;
     font-weight: 700;
     color: var(--primary-two);
+
+
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 75px;
+    line-height: 110%;
 }
 
 h2 {
@@ -62,43 +66,55 @@ h5 {
 p {
     font-weight: 400;
     font-size: 25px;
-    line-height: 157%;
-    color: var(--secondary-four);
+    line-height: 150%;
+    color: var(--secondary-one);
 }
 
 .btn {
-    border: none;
-    font-family: Nunito;
-    font-weight: 700;
-    font-size: 1.1rem;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 1.5rem 3rem;
+    align-items: center;
+    border: none;
+    padding: 25px 50px;
+    gap: 10px;
+    height: 75px;
+
+    /* width: 166px; */
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    background: #FFFFFF;
     border-radius: 35px;
-    cursor: pointer;
-}
-
-.btn-video {
-    justify-content: space-between;
-}
-
-.btn-gray {
-    background-color: var(--secondary-one);
-    color: var(--primary-two);
 }
 
 .btn-primary {
     background-color: var(--primary-one);
     color: white;
-    ;
 }
 
 .btn-secondary {
     background-color: var(--primary-two);
 }
 
+.btn-black {
+    background-color: black;
+    color: white;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
 .btn-transparent {
     background: transparent;
+    color: var(--primary-two);
+}
+
+.btn-gray {
+    background-color: var(--secondary-one);
     color: var(--primary-two);
 }
