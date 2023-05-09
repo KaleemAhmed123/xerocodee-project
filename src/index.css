@@ -79,7 +79,7 @@ p {
     gap: 10px;
     height: 75px;
 
-    /* width: 166px; */
+    width: fit-content;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
@@ -100,7 +100,7 @@ p {
 }
 
 .btn-black {
-    background-color: black;
+    background-color: #000000e6;
     color: white;
 }
 

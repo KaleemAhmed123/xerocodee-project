@@ -1,17 +1,17 @@
 import "./SubHeaderBtn.scss";
 
-const SubHeaderBtn = () => {
+const SubHeaderBtn = ({ name, heading }) => {
   // TODO- btn functionality left only
   return (
     <div className="wrapper">
       <div className="sub-content">
         <div className="heading">
           <div className="">
-            <button className="btn btn-trans">How It Works</button>
+            <button className="btn btn-trans">{name}</button>
           </div>
           <h3 className="heading-text">
-            <h2>Work smarter</h2>
-            <h2>with easy deploys, manages & scales</h2>
+            <h2>{heading}</h2>
+            {/* <h2>with easy deploys, manages & scales</h2> */}
           </h3>
         </div>
         {/*  */}
